@@ -19,23 +19,27 @@ main{
     display: flex;
     flex-direction: column;
     gap: 24px;
+    margin: auto;
 }
 
 
 .content{
-   
     max-width: 580px;
     width: 90%;
 }
 
 section{
-    padding: 32px;
-  background-color: #2A2634;
+   
+    background: linear-gradient(90deg, #9572FC 0%, #43E7AD 50.52%, #E2D45C 100%);
+    border-radius: 8px;  
+    padding: 4px 0 0 0;
+    
 }
 section .background{
-    
-    
+    background-color: #2A2634;
+    padding: 24px 32px 32px 32px;
 }
+    
 section .title{
     letter-spacing: -0.47px;
 }
@@ -52,7 +56,6 @@ ul{
     display: flex;
     flex-direction: column;
     gap: 24px;
-    background-color: #2A2634;
 }
 .games .header{
     display: flex;
