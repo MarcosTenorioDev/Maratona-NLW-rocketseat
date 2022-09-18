@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;900&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -11,16 +12,55 @@ body{
     background-repeat: no-repeat;
     background-color: #121214;
     color: white;  
+    font-family: inter, sans-serif;
+    line-height: 160%;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
 }
 
-main *{
-    border: 2px solid red;
-}
 
-main .content{
-    
+.content{
+   
     max-width: 580px;
     width: 90%;
-    margin: auto;
-
 }
+
+section{
+    padding: 32px;
+  background-color: #2A2634;
+}
+section .background{
+    
+    
+}
+section .title{
+    letter-spacing: -0.47px;
+}
+section .subtitle{
+    letter-spacing: -0.18px;
+    color: #A1A1AA;
+}
+ul{
+    list-style: none;
+    display: flex;
+    gap: 16px;   
+}
+.games{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    background-color: #2A2634;
+}
+.games .header{
+    display: flex;
+    flex-direction: column;
+    gap: 17px;
+}
+.games img{
+    width: 90px;
+    border-radius: 8px;
+}
+
