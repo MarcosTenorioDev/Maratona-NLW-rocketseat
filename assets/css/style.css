@@ -14,12 +14,31 @@ body{
     color: white;  
     font-family: inter, sans-serif;
     line-height: 160%;
+   padding: 50px 30px 0 30px;
+}
+
+
+header .profile  {
+    background: linear-gradient(90deg, #9572FC 0%, #43E7AD 50.52%, #E2D45C 100%);
+    width: 120px;
+    height: 120px;
+    margin: auto;
+    border-radius: 50%;
+    
+}
+header img{
+    padding: 4px;
+    width: 100%;
+    border-radius: 50%;
+
+
 }
 main{
     display: flex;
     flex-direction: column;
     gap: 24px;
-    margin: auto;
+    margin: 32px auto 0 ;
+    
 }
 
 
@@ -38,6 +57,7 @@ section{
 section .background{
     background-color: #2A2634;
     padding: 24px 32px 32px 32px;
+    border-radius: 5px;
 }
     
 section .title{
@@ -50,14 +70,14 @@ section .subtitle{
 ul{
     list-style: none;
     display: flex;
-    gap: 16px;   
+    gap: 16px;  
+    flex-wrap: wrap;
 }
-.games{
-    display: flex;
-    flex-direction: column;
-    gap: 24px;
+nav{
+    margin-top: 20px;
 }
-.games .header{
+
+section .header{
     display: flex;
     flex-direction: column;
     gap: 17px;
@@ -67,3 +87,7 @@ ul{
     border-radius: 8px;
 }
 
+.network img {
+    border-radius: 50%;
+    border: 1px solid #443E54;
+}
